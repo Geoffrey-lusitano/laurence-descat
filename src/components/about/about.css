@@ -1,0 +1,58 @@
+#about {
+    height: 50vh;
+}
+
+.about__container {
+    background: var(--color-primary);
+    color: var(--color-text);
+    display:flex;
+    justify-content: space-around;
+    gap: 2rem;
+    padding: 1rem;
+}
+
+
+/* ===================== ME ========================== */
+
+.about__picture {
+
+    max-width: 40rem;
+    max-height: 50rem;
+    object-fit: cover;
+    border-radius: 2rem;
+
+}
+.about__picture img {
+    width: 30rem;
+    height: 30rem;
+    border-radius: 2rem;
+    object-fit: cover;
+}
+
+/* ===================== CONTENT ========================= */
+
+
+.about__content h2 {
+    padding-left: 2rem;
+}
+.content__text {
+    padding: 1rem;
+    padding-left: 2rem;
+    
+}
+.content__text__bottom {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 5rem;
+}
+
+/* ===================== socialNetwork ========================= */
+
+.socialNetwork a {
+    padding: 1rem;
+    font-size: 2rem;
+    color: var(--color-secondary);
+}
+.socialNetwork a:hover {
+    color: var(--color-tercary);
+}

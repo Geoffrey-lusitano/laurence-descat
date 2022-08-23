@@ -1,0 +1,9 @@
+#reflexiology {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+}
+
+.content {
+    height: 20rem;
+}
