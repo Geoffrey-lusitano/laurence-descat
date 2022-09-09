@@ -56,3 +56,23 @@
 .socialNetwork a:hover {
     color: var(--color-tercary);
 }
+
+/* ================ TABLETTE ============ */
+@media screen and (max-width: 1023px) {
+    .container {
+        width: var(--container-width-md);
+    }
+    section {
+        margin-top: 6rem;
+    }
+}
+
+/* ================ PHONE ============ */
+@media screen and (min-width: 1024px) {
+    .container {
+        width: var(--container-width-lg);
+    }
+    section {
+        margin-bottom: 2rem;
+    }
+}

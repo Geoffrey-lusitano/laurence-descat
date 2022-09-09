@@ -1,9 +1,11 @@
 
 
+.header__container {
+    background: var(--color-secondary);
+    height: 50vh;
+}
 
 
-
-/* ===================== ME ========================== */
 
 
 

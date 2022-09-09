@@ -26,13 +26,21 @@ const Nav = () => {
         <GiFootprint/>
         <span className='nameNav'>Réflexiologie</span>
       </a>
+      <a href="#reflexiology" onClick={() => setActiveNav('#reflexiology')} className={activeNav === '#reflexiology' ? 'active' : ''}>
+        <GiFootprint/>
+        <span className='nameNav'>émotion</span>
+      </a>
       <a href="#massages" onClick={() => setActiveNav('#massages')} className={activeNav === '#massages' ? 'active' : ''}>
         <TbMassage/>
         <span className='nameNav'>Massage</span>
       </a>
       <a href="#guidance" onClick={() => setActiveNav('#guidance')} className={activeNav === '#guidance' ? 'active' : ''}>
         <DiAtlassian/>
-        <span className='nameNav'>Accompagnement</span>
+        <span className='nameNav'>Horaires - Tarifs</span>
+      </a>
+      <a href="#guidance" onClick={() => setActiveNav('#guidance')} className={activeNav === '#guidance' ? 'active' : ''}>
+        <DiAtlassian/>
+        <span className='nameNav'>Carte cadeaux</span>
       </a>
       <a href="#contact" onClick={() => setActiveNav('#contact')} className={activeNav === '#contact' ? 'active' : ''}>
         <BiMessageSquareDetail/>
