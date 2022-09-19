@@ -1,10 +1,10 @@
 import React from 'react'
 import './nav.css'
 import {AiOutlineHome} from 'react-icons/ai'
-import {AiOutlineUser} from 'react-icons/ai'
+import {MdOutlinePsychology} from 'react-icons/md'
 import {BiMessageSquareDetail} from 'react-icons/bi'
 import {TbMassage} from 'react-icons/tb'
-import {DiAtlassian} from 'react-icons/di'
+import {ImPriceTag} from 'react-icons/im'
 import {GiFootprint} from 'react-icons/gi'
 
 
@@ -18,29 +18,21 @@ const Nav = () => {
         <AiOutlineHome/>
         <span className='nameNav'>Accueil</span>
       </a>
-      <a href="#about" onClick={() => setActiveNav('#about')} className={activeNav === '#about' ? 'active' : ''}>
-        <AiOutlineUser/>
-        <span className='nameNav'>Présentation</span>
-      </a>
       <a href="#reflexiology" onClick={() => setActiveNav('#reflexiology')} className={activeNav === '#reflexiology' ? 'active' : ''}>
         <GiFootprint/>
         <span className='nameNav'>Réflexiologie</span>
       </a>
-      <a href="#reflexiology" onClick={() => setActiveNav('#reflexiology')} className={activeNav === '#reflexiology' ? 'active' : ''}>
-        <GiFootprint/>
-        <span className='nameNav'>émotion</span>
+      <a href="#memory" onClick={() => setActiveNav('#memory')} className={activeNav === '#memory' ? 'active' : ''}>
+        <MdOutlinePsychology/>
+        <span className='nameNav'>Mémoires <br></br> emotionnelles</span>
       </a>
       <a href="#massages" onClick={() => setActiveNav('#massages')} className={activeNav === '#massages' ? 'active' : ''}>
         <TbMassage/>
         <span className='nameNav'>Massage</span>
       </a>
-      <a href="#guidance" onClick={() => setActiveNav('#guidance')} className={activeNav === '#guidance' ? 'active' : ''}>
-        <DiAtlassian/>
-        <span className='nameNav'>Horaires - Tarifs</span>
-      </a>
-      <a href="#guidance" onClick={() => setActiveNav('#guidance')} className={activeNav === '#guidance' ? 'active' : ''}>
-        <DiAtlassian/>
-        <span className='nameNav'>Carte cadeaux</span>
+      <a href="#ht" onClick={() => setActiveNav('#ht')} className={activeNav === '#ht' ? 'active' : ''}>
+        <ImPriceTag/>
+        <span className='nameNav'>Horaires <br></br> Tarifs</span>
       </a>
       <a href="#contact" onClick={() => setActiveNav('#contact')} className={activeNav === '#contact' ? 'active' : ''}>
         <BiMessageSquareDetail/>

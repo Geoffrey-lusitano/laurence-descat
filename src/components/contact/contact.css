@@ -1,32 +1,27 @@
-.container.contact__container {
-    width: 58%;
-    display:grid;
-    grid-template-columns: 30% 58%;
-    gap: 12%;
-}
 
-.contact__options {
+.contact__content {
     display: flex;
     flex-direction: column;
-    gap: 1.2rem;
-
 }
 
-.contact__option {
-    background: var(--color-bg-variant);
+.contact__content {
+    width: 100%;
+    background: var(--color-primary);
     padding: 1.2rem;
+    margin: 1rem;
     border-radius: 1.2rem;
+    align-items: center;
     text-align: center;
     border: 1px solid transparent;
     transition: var(--transition);
 }
 
-.contact__option:hover {
+.contact__content:hover {
     background: transparent;
-    border-color: var(--color-primary-variant);
+    border-color: var(--color-secondary);
 }
 
-.contact__option-icon {
+.contact__icon {
     font-size:1.5rem;
     margin-bottom: 0.5rem;
 }
@@ -35,36 +30,4 @@
     margin-top: 0.7rem;
     display: inline-block;
     font-size: 0.8rem;
-}
-
-form {
-    display: flex;
-    flex-direction: column;
-    gap: 1.2rem;
-}
-
-input, textarea {
-    width: 100%;
-    padding: 1.5rem;
-    border-radius: 0.5rem;
-    background: transparent;
-    border: 2px solid var(--color-primary-variant);
-    resize: none;
-    color: var(--color-white);
-}
-
-/* ================ TABLETTE ============ */
-@media screen and (max-width: 1024px) {
-    .container.contact__container {
-        grid-template-columns: 1fr ;
-        gap: 2rem;
-    }
-    
-}
-
-/* ================ PHONE ============ */
-@media screen and (max-width: 600px) {
-    .container.contact__container {
-        width: var(--container-width-sm);
-    }
 }

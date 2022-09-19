@@ -1,14 +1,15 @@
-#about {
-    height: 50vh;
-}
 
 .about__container {
     background: var(--color-primary);
     color: var(--color-text);
     display:flex;
-    justify-content: space-around;
-    gap: 2rem;
-    padding: 1rem;
+    align-items: center;
+    flex-direction: column;
+    text-align: justify;
+}
+
+.about__general {
+    margin: 1rem;
 }
 
 
@@ -16,37 +17,27 @@
 
 .about__picture {
 
-    max-width: 40rem;
-    max-height: 50rem;
-    object-fit: cover;
+    
     border-radius: 2rem;
-
+    margin: 1rem;
 }
 .about__picture img {
-    width: 30rem;
-    height: 30rem;
-    border-radius: 2rem;
-    object-fit: cover;
+    width: 60%;
 }
-
 /* ===================== CONTENT ========================= */
 
-
-.about__content h2 {
-    padding-left: 2rem;
-}
 .content__text {
     padding: 1rem;
-    padding-left: 2rem;
     
 }
 .content__text__bottom {
     display: flex;
+    flex-direction: column;
+    align-items: center;
     justify-content: space-around;
-    padding-top: 5rem;
+    padding-top: 1rem;
 }
 
-/* ===================== socialNetwork ========================= */
 
 .socialNetwork a {
     padding: 1rem;
@@ -57,22 +48,16 @@
     color: var(--color-tercary);
 }
 
-/* ================ TABLETTE ============ */
-@media screen and (max-width: 1023px) {
-    .container {
-        width: var(--container-width-md);
-    }
-    section {
-        margin-top: 6rem;
-    }
+.contactBtn a {
+    margin: 1rem;
 }
 
-/* ================ PHONE ============ */
+/* ================ TABLETTE ============ */
+@media screen and (min-width: 820px) {
+
+}
+
+/* ================ DEKSTOP ============ */
 @media screen and (min-width: 1024px) {
-    .container {
-        width: var(--container-width-lg);
-    }
-    section {
-        margin-bottom: 2rem;
-    }
+
 }

@@ -1,9 +1,8 @@
-#reflexiology {
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 2rem;
-}
 
-.content {
-    height: 20rem;
+.reflexiology__acc {
+    margin: 0 !important;
+    background: var(--color-primary);
+}
+.general__content h3 {
+
 }

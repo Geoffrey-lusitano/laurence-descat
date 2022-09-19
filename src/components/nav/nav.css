@@ -1,5 +1,5 @@
 nav {
-    background: var(--color-primary);
+    background: var(--color-primary-transparent);
     width: max-content;
     display: block;
     padding: 0.7rem 1.7rem;
@@ -10,6 +10,7 @@ nav {
     bottom: 2rem;
     display: flex;
     gap: 0.8rem;
+    /* border: 2px solid var(--color-secondary); */
     border-radius: 3rem;
     backdrop-filter: blur(15px);
 }
@@ -19,10 +20,17 @@ nav a {
     padding: 0.9rem;
     border-radius: 5%;
     display: flex;
-    align-items: first baseline;
+    justify-content: center;
+    align-items: center;
     color: var(--color-text);
     font-size: 1.1rem;
     font-weight: bold;
+}
+nav a span {
+    display: flex;
+    vertical-align: middle;
+    justify-content: center;
+    align-items: center;
 }
 
 nav a:hover {
