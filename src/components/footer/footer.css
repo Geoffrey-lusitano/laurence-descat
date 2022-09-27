@@ -1,0 +1,20 @@
+#footer {
+    margin-bottom: 150px;
+}
+#footer a {
+    text-decoration: none;
+    color: var(--color-text);
+}
+.permalinks {
+    text-align: center;
+}
+.footer__socials {
+    display: flex;
+    flex-direction: row;
+    
+}
+.footer__socials a {
+    font-size: 2rem;
+    color: var(--color-secondary);
+    margin: 2rem;
+}

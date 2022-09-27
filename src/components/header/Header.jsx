@@ -1,5 +1,6 @@
 import React from "react";
 import "./header.css";
+
 import ImageSlider from './ImageSlider'
 import image1 from '../../assets/carou__1.jpg'
 import image2 from '../../assets/carou__2.jpg'
@@ -22,7 +23,7 @@ function Header() {
             <img src={logo} alt="" />
             <h1>LAURENCE DESCAT</h1>
           </div>
-          <div  className="carrousel__content">
+          <div  className="carrousel__content" >
             <ImageSlider slides={slides} />
           </div>
         </div>

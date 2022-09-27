@@ -32,7 +32,7 @@ const Footer = () => {
           </li>
         </ul>
 
-        <div className="footer__socials content">
+        <div className="footer__socials">
           <a
             href="https://www.linkedin.com/in/laurence-descat-5bab12201/"
             target="_blank"

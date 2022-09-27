@@ -16,8 +16,6 @@
 /* ===================== ME ========================== */
 
 .about__picture {
-
-    
     border-radius: 2rem;
     margin: 1rem;
 }
@@ -25,10 +23,16 @@
     width: 60%;
 }
 /* ===================== CONTENT ========================= */
-
+.about__content h2 {
+    display: flex;
+    flex-direction: column;
+}
+.about__content span {
+    width: 100%;
+    border: solid 2px var(--color-secondary);
+}
 .content__text {
     padding: 1rem;
-    
 }
 .content__text__bottom {
     display: flex;

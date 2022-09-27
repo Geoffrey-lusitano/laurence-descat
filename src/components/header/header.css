@@ -4,6 +4,7 @@
     align-items: center;
 }
 .carousel__title img {
+    padding-top: 1rem;
     width: 30px;
 }
 .carousel__content {
@@ -34,6 +35,8 @@
     height: 100%;
     background-position: center;
     background-size: cover;
+    background-repeat: no-repeat;
+    transition: var(--transition);
 }
 
 .left__arrow {

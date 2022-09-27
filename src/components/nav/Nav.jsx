@@ -22,14 +22,15 @@ const Nav = () => {
         <GiFootprint/>
         <span className='nameNav'>Réflexiologie</span>
       </a>
-      <a href="#memory" onClick={() => setActiveNav('#memory')} className={activeNav === '#memory' ? 'active' : ''}>
-        <MdOutlinePsychology/>
-        <span className='nameNav'>Mémoires <br></br> emotionnelles</span>
-      </a>
       <a href="#massages" onClick={() => setActiveNav('#massages')} className={activeNav === '#massages' ? 'active' : ''}>
         <TbMassage/>
         <span className='nameNav'>Massage</span>
       </a>
+      <a href="#memory" onClick={() => setActiveNav('#memory')} className={activeNav === '#memory' ? 'active' : ''}>
+        <MdOutlinePsychology/>
+        <span className='nameNav'>Mémoires <br></br> emotionnelles</span>
+      </a>
+
       <a href="#ht" onClick={() => setActiveNav('#ht')} className={activeNav === '#ht' ? 'active' : ''}>
         <ImPriceTag/>
         <span className='nameNav'>Horaires <br></br> Tarifs</span>

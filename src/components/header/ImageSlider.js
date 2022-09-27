@@ -1,7 +1,19 @@
+import { useEffect } from "react";
 import { useState } from "react";
 
 const ImageSlider = ({ slides }) => {
   const [currentIndex, setCurrentIndex] = useState(0);
+  const [autoPlay, setAutoPlay] = useState(true);
+  let timeOut = null;
+
+  useEffect(() => {
+    timeOut = 
+    autoPlay &&
+    setTimeout(() =>{
+      goToNext();
+    },4500)
+  })
+
   const slideStyles = {
     backgroundImage: `url(${slides[currentIndex].url})`,
   };
@@ -20,7 +32,7 @@ const ImageSlider = ({ slides }) => {
   //   setCurrentIndex(slideIndex);
   // };
   return (
-    <div className="slider">
+    <div className="slider" onMouseEnter={() => { setAutoPlay(false);}} onMouseLeave={() => {setAutoPlay(true);}}>
       <div className="left__arrow" onClick={goToPrevious}>
         ❰
       </div>

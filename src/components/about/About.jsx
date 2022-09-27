@@ -13,21 +13,23 @@ const about = () => {
           <div className="about__picture">
             <img src={ME} alt="" />
           </div>
-          <div className="about__content">
-            <h2>Réflexologue - Masseuse</h2>
+          <div className="about__content content">
+            <h2>Réflexologue - Masseuse
+            <span></span>
+            </h2>
+            
             <div className="content__text">
               <p>
-                AUJOURD’HUI, grâce aux connaissances acquises avec des
-                formations et via mes expériences de vie, je réponds enfin à ce
-                besoin profond et presque viscéral que j’ai en moi depuis mon
-                plus jeune âge de vouloir aider et accompagner les autres ! Je
-                souhaite transmettre ma vision des choses, en respectant le
-                corps et l’intégrité physique, en toute bienveillance, dans la
-                douceur et l’harmonie. Faire que chaque séance de réflexologie
-                plantaire, de massage taoiste du ventre ou de pratique de yoga
-                kundalini soit un moment pour vous, un moment à part permettant
-                de vous révéler à vous-mêmes et de devenir l’auteur de votre
-                propre santé.
+              Je me suis formée à la Réflexologie à la suite de l’intérêt que les médecines douces ou alternatives représentaient pour mes propres problématiques de santé depuis de nombreuses années. Avec le temps j’ai augmenté mes connaissances et je ne cesse de les enrichir dès que j’en ai l’occasion. 
+              </p>
+              <p>
+              Les différentes formations certifiantes que j’ai suivi en Réflexologie ont élargi mes compétences et me permettent d’accompagner différentes pathologies en complément de la médecine et avec accord des médecins, c’est pourquoi je propose des séances spécifiques pour certaines maladies (Alzheimer, Parkinson, Cancers, Fibromyalgie, Endométriose) et pour la Périnatalité.
+              </p>
+              <p>
+              J’ai également fait le choix d’apporter plus de détente en me formant au Massage Sensitif de Bien Être ®, la découverte du Shiatsu et des huiles essentielles.
+              </p>
+              <p>
+              Mon objectif, par les différentes prestations que je vous propose, est de vous procurer la séance la plus adaptée à vos besoins.
               </p>
               <div className="content__text__bottom">
                 <div className="socialNetwork">
@@ -57,9 +59,7 @@ const about = () => {
                   <a href="#contact" className="btn">
                     Prendre rdv
                   </a>
-                  <a href="#contact" className="btn">
-                    Prendre rdv
-                  </a>
+
                 </div>
               </div>
             </div>

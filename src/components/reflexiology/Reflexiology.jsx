@@ -15,34 +15,50 @@ function Reflexiology() {
           <img src={general} alt="" />
         </div>
         <div className="content general__content">
+          <h3>
+            Réflexologie plantaire Médecine Traditionnelle Chinoise, Palmaire,
+            Visage Dien Cham et Oreilles{" "}
+          </h3>
           <p>
-            Il s’agit d’une technique manuelle qui agit par pression sur les
-            zones réflexes du corps, et qui va transmettre une information par
-            les terminaisons nerveuses aux organes. Ceux-ci vont pourvoir
-            rétablir leur équilibre (l’homéostasie).
+            En séance de réflexologie j’utilise la représentation de chaque
+            organe ou partie du corps au niveau du pied, des mains, du visage,
+            des oreilles ou du crâne et par des stimulations manuelles de ces
+            différentes zones, je cherche à amener ou ramener un état
+            d’équilibre dans le corps, physiologiquement, nerveusement et
+            mentalement. Le choix de la zone sur laquelle je travaillerais
+            dépendra de ce qui sera le plus approprié.
           </p>
           <p>
-            C’est une forme d’acupressure qui apporte des améliorations
-            physiologiques, nerveuses et mentales.
+            L’ajout de la médecine traditionnelle chinoise a pour intérêt de
+            maintenir plus durablement les effets d’amélioration des séances.
           </p>
-          <h3>La Médecine Traditionnelle Chinoise</h3>
           <p>
-            L’ajout de cette technique est de pouvoir maintenir plus durablement
-            les effets d’amélioration des séances….
+            L’objectif ou les objectifs sont divers et chacun sera
+            potentiellement réceptif à cette technique.
+          </p>
+          <p>
+            Il s’agit d’un acte préventif pour apporter un état d’équilibre au
+            corps lors des changements de saison ou d’évènements tout comme il
+            peut accompagner un traitement médical sous les réserves d’usage.
           </p>
         </div>
       </div>
       <div className="content reflexiology__acc">
         <div className="reflexiology__acc__general content">
-        <h2>Accompagnement specifique</h2>
-        <div className="reflexiology__picture">
-          <img src={acc} alt="" />
+          <h2>Accompagnement specifique</h2>
+          <div className="reflexiology__picture">
+            <img src={acc} alt="" />
+          </div>
+          <div className="acc__content">
+            <p>
+              La séance de réflexologie est adaptée à la pathologie (Alzheimer,
+              Parkinson, Cancers, Fibromyalgie, Endométriose) et différentes
+              zones du corps seront massés afin de réduits certains effets liés
+              à la maladie ou des traitements afin de gagner une meilleure
+              qualité de vie et plus de bien-être au quotidien.
+            </p>
+          </div>
         </div>
-        <div className="acc__content">
-          <p>Parkinson, Alzheimer, Cancers, Fibromyalgie, Endométriose</p>
-        </div>
-        </div>
-        
       </div>
       <div className="content reflexiology__memory">
         <h2>
@@ -74,8 +90,24 @@ function Reflexiology() {
           <img src={perinatale} alt="" />
         </div>
         <div className="acc__content">
-          <p>La réflexologie périnatale©  permet d’accompagner dans les meilleures conditions les femmes dans leurs expériences de grossesse, présentes, passées ou à venir, par un accompagnement réflexologique et psycho-émotionnel.</p>
-          <p>Des séances qui préparent le corps et l’émotion des futurs parents qui viendront conforter les émotions avant, pendant et après grossesse. Des séances qui seront les bienvenues pour l’après naissance, pour soutenir les problématiques de ces moments de vie (Post-partum,……</p>
+          <p>
+            La réflexologie périnatale permet d’accompagner dans les meilleures
+            conditions les femmes dans leurs expériences de grossesse,
+            présentes, passées et futures par un accompagnement Réflexologique
+            et Psycho-émotionnel.
+          </p>
+          <p>
+            Pour un travail effectué sur une femme enceinte : il sera différent
+            et adapté par sécurité à son état tout comme lors de traitement et
+            de protocoles de parcours (PMA, Don d’ovocyte, IVG/IMG,…) en
+            respect, bienveillance pour la futur maman et avec accord du corps
+            médical.
+          </p>
+          <p>
+            Un travail pour les papas est également proposé car les difficultés
+            rencontrées lors de parcours PMA ou de simples difficultés à devenir
+            parents ne concerne pas toujours que les femmes.
+          </p>
         </div>
       </div>
       <div className="content reflexiology__shiatsu">
@@ -84,7 +116,11 @@ function Reflexiology() {
           <img src={shiatsu} alt="" />
         </div>
         <div className="acc__content">
-          <p>Blaaaaaaaa blaaaaaaaaaa</p>
+          <p>
+            Par des pressions effectuées manuellement sur le corps sur le trajet
+            de méridiens afin de réguler les points bloqués ou ayant besoin
+            d’être stimulés afin de libérer la circulation de l’énergie.
+          </p>
         </div>
       </div>
     </section>
