@@ -6,3 +6,47 @@
 .general__content h3 {
 
 }
+
+/* ================ TABLETTE ============ */
+@media screen and (min-width: 820px) {
+
+}
+
+/* ================ DEKSTOP ============ */
+@media screen and (min-width: 1024px) {
+    .types {
+        display: flex;
+        flex-direction: row !important;
+        justify-content: space-around;
+
+    }
+    .reflexiology__general {
+        display: flex !important;
+        flex-direction: row !important;
+        gap: 2.5rem;
+        margin-top: 1rem;
+    }
+    .reflexiology__acc {
+        border-radius: 2rem;
+    }
+    .reflexiology__acc__general {
+        display: flex !important;
+        flex-direction: row !important;
+        gap: 2.5rem;
+        margin-top: 1rem;
+    }
+
+
+    .reflexiology__perinatal {
+        display: flex !important;
+        flex-direction: row-reverse !important;
+        gap: 2.5rem;
+        margin-top: 1rem;
+    }
+    .reflexiology__shiatsu {
+        display: flex !important;
+        flex-direction: row !important;
+        gap: 2.5rem;
+        margin-top: 1rem;
+    }
+}

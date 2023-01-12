@@ -16,16 +16,16 @@ const Footer = () => {
             <a href="#about">À propos</a>
           </li>
           <li>
-            <a href="#reflexiologie">Réflexiologie</a>
+            <a href="#reflexiologie">Réflexologie</a>
           </li>
           <li>
-            <a href="#memory">Mémoires emotionnelles</a>
+            <a href="#memory">Mémoires émotionnelles</a>
           </li>
           <li>
             <a href="#massages">Massages</a>
           </li>
           <li>
-            <a href="#ht">Horraires - Tarifs</a>
+            <a href="#ht">Horaires - Tarifs</a>
           </li>
           <li>
             <a href="#contact">Contact</a>
@@ -34,7 +34,7 @@ const Footer = () => {
 
         <div className="footer__socials">
           <a
-            href="https://www.linkedin.com/in/laurence-descat-5bab12201/"
+            href="https://www.linkedin.com/in/laurence-descat-ei-5bab12201/"
             target="_blank"
             rel="noreferrer"
           >
@@ -57,7 +57,7 @@ const Footer = () => {
         </div>
 
         <div className="footer__copyright">
-          <small>&copy; Geoffrey LUSITANO. All rights reserved.</small>
+          <small>&copy; Laurence Descat. All rights reserved.</small>
         </div>
       </div>
     </footer>

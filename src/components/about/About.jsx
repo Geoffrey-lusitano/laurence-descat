@@ -10,9 +10,8 @@ const about = () => {
     <section id="about">
       <div className="about__container">
         <div className="about__general">
-          <div className="about__picture">
-            <img src={ME} alt="" />
-          </div>
+
+          <img src={ME} alt="" />
           <div className="about__content content">
             <h2>Réflexologue - Masseuse
             <span></span>
@@ -23,7 +22,7 @@ const about = () => {
               Je me suis formée à la Réflexologie à la suite de l’intérêt que les médecines douces ou alternatives représentaient pour mes propres problématiques de santé depuis de nombreuses années. Avec le temps j’ai augmenté mes connaissances et je ne cesse de les enrichir dès que j’en ai l’occasion. 
               </p>
               <p>
-              Les différentes formations certifiantes que j’ai suivi en Réflexologie ont élargi mes compétences et me permettent d’accompagner différentes pathologies en complément de la médecine et avec accord des médecins, c’est pourquoi je propose des séances spécifiques pour certaines maladies (Alzheimer, Parkinson, Cancers, Fibromyalgie, Endométriose) et pour la Périnatalité.
+              Les différentes formations certifiantes que j’ai suivies en Réflexologie ont élargies mes compétences et me permettent d’accompagner différentes pathologies en complément de la médecine et avec accord des médecins, c’est pourquoi je propose des séances spécifiques pour certaines maladies <i>(Alzheimer, Parkinson, Cancers, Fibromyalgie, Endométriose)</i> et pour la Périnatalité.
               </p>
               <p>
               J’ai également fait le choix d’apporter plus de détente en me formant au Massage Sensitif de Bien Être ®, la découverte du Shiatsu et des huiles essentielles.
@@ -34,7 +33,7 @@ const about = () => {
               <div className="content__text__bottom">
                 <div className="socialNetwork">
                   <a
-                    href="https://www.linkedin.com/in/laurence-descat-5bab12201/"
+                    href="https://www.linkedin.com/in/laurence-descat-ei-5bab12201/"
                     target="_blank"
                     rel="noreferrer"
                   >

@@ -17,11 +17,11 @@
     --color-primary-transparent: rgba(181, 221, 185, 0.6);
     --color-secondary: #A66C6E;
     --color-tercary: #F2E7E5;
-    --color-text:#374D77;
+    --color-text:#005493;
     --color-text-dark: black;
     --color-text-light: #f5f5f5;
 
-    --transition: all 600ms ease-out;
+    --transition: all 1000ms ease-out;
 
 
     --container-width-lg: 75%;
@@ -42,6 +42,7 @@ body {
     background: var(--color-bg);
     color: var(--color-white);
     line-height: 1.7;
+    letter-spacing: -0.3px;
 
 }
 
@@ -95,7 +96,8 @@ img {
     width: 100%;
     object-fit: contain;
     margin: 0 auto;
-    border-radius: 1rem;
+    border-radius: 1rem 0 1rem 0;
+    margin-bottom: 1rem;
 }
 
 /* ================ TABLETTE ============ */
@@ -105,5 +107,17 @@ img {
 
 /* ================ DEKSTOP ============ */
 @media screen and (min-width: 1024px) {
+    section {
+        max-width: 1400px;
 
+    }
+    img {
+
+        width: 50%;
+
+    }
+    /* .content {
+        flex-direction: row;
+        border: black 1px solid ;
+    } */
 }

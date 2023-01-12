@@ -1,0 +1,45 @@
+#massages {
+    background: var(--color-primary);
+    padding-bottom: 1rem;
+}
+#massages img {
+    margin: 1rem;
+}
+
+/* ================ TABLETTE ============ */
+@media screen and (min-width: 820px) {
+
+}
+
+/* ================ DEKSTOP ============ */
+@media screen and (min-width: 1024px) {
+    #massages {
+        border-radius: 2rem;
+    }
+    .massages {
+        display: flex;
+        flex-direction: row !important;
+        gap: 2.5rem;
+        
+    }
+    .massages__sensitif {
+        display: flex;
+        flex-direction: row !important;
+        gap: 2.5rem;
+        border-radius: 2rem;
+    }
+    .massages__sensitif img {
+        width: 30%;
+    }
+    .massages__aromatouch {
+        display: flex;
+        flex-direction: row-reverse !important;
+        gap: 2.5rem;
+        border-radius: 2rem;
+    }
+    .massages__aromatouch img {
+        width: 30%;
+    }
+
+    
+}

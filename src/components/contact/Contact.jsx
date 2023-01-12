@@ -7,8 +7,9 @@ import { SiGotomeeting } from "react-icons/si";
 const Contact = () => {
   return (
     <section id="contact">
+      <h2> Contactez-moi</h2>
       <div className="content contact__general">
-        <h2> Contactez-moi</h2>
+        
         <div className="contact__content">
           <MdOutlineEmail className="contact__icon" />
           <h4>Email</h4>
@@ -24,9 +25,9 @@ const Contact = () => {
         <div className="contact__content">
           <BsWhatsapp className="contact__icon" />
           <h4>WhatsApp</h4>
-          <h5>+33665103478</h5>
+          <h5>+33 6 79 67 75 98</h5>
           <a
-            href="https://api.whatsapp.com/send?phone=33665103478"
+            href="https://api.whatsapp.com/send?phone=33679677598"
             target="_blank"
             rel="noreferrer"
           >

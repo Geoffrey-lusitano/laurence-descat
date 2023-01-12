@@ -2,7 +2,8 @@
     margin-bottom: 1rem;
 }
 .presta {
-    
+    height:100%;
+    width:100%;
     border: 1px solid var(--color-secondary);
     border-radius:1rem;
     margin-bottom: 1rem;
@@ -14,4 +15,28 @@
 
 .price span {
     margin-left: 1rem;
+    margin-right: 1rem;
+}
+.detail {
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+/* ================ TABLETTE ============ */
+@media screen and (min-width: 820px) {
+
+}
+
+/* ================ DEKSTOP ============ */
+@media screen and (min-width: 1024px) {
+    .ht__reflexotherapie {
+        display: grid !important;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2.5rem;
+    }
+    .ht__reflexologie {
+        display: grid !important;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 2.5rem;
+    }
 }

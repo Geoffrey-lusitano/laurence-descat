@@ -1,0 +1,11 @@
+/* ================ TABLETTE ============ */
+@media screen and (min-width: 820px) {
+
+}
+
+/* ================ DEKSTOP ============ */
+@media screen and (min-width: 1024px) {
+    .memory__general img {
+        width: 100% !important;
+    }
+}

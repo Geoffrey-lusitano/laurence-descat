@@ -34,10 +34,10 @@ const ImageSlider = ({ slides }) => {
   return (
     <div className="slider" onMouseEnter={() => { setAutoPlay(false);}} onMouseLeave={() => {setAutoPlay(true);}}>
       <div className="left__arrow" onClick={goToPrevious}>
-        ❰
+      ⟪
       </div>
       <div className="right__arrow" onClick={goToNext}>
-        ❱
+      ⟫
       </div>
       <div style={slideStyles} className="slide">
         

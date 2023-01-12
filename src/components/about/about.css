@@ -11,17 +11,14 @@
 .about__general {
     margin: 1rem;
 }
+.about__general img {
+    width: 60%;
+}
 
 
 /* ===================== ME ========================== */
 
-.about__picture {
-    border-radius: 2rem;
-    margin: 1rem;
-}
-.about__picture img {
-    width: 60%;
-}
+
 /* ===================== CONTENT ========================= */
 .about__content h2 {
     display: flex;
@@ -30,6 +27,7 @@
 .about__content span {
     width: 100%;
     border: solid 2px var(--color-secondary);
+    border-radius: 1rem;
 }
 .content__text {
     padding: 1rem;
@@ -63,5 +61,19 @@
 
 /* ================ DEKSTOP ============ */
 @media screen and (min-width: 1024px) {
+    .about__general {
+        display:flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .about__general img {
+        width: 100%;
+    }
+    .content__text__bottom {
+        flex-direction: row;
+    }
+
 
 }

@@ -11,10 +11,26 @@
 .footer__socials {
     display: flex;
     flex-direction: row;
-    
+    text-align: center;
 }
 .footer__socials a {
     font-size: 2rem;
     color: var(--color-secondary);
     margin: 2rem;
+}
+
+/* ================ TABLETTE ============ */
+@media screen and (min-width: 820px) {
+
+}
+
+/* ================ DEKSTOP ============ */
+@media screen and (min-width: 1024px) {
+    .permalinks {
+        display: flex;
+        flex-direction: row;
+    }
+    .permalinks li {
+        padding: 1rem;
+    }
 }

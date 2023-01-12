@@ -44,8 +44,8 @@
     top: 50%;
     transform: translate(0, -50%);
     left: 32px;
-    font-size: 45px;
-    color: white;
+    font-size: 35px;
+    color: var(--color-secondary);
     z-Index: 1;
     cursor: pointer;
 }
@@ -54,8 +54,15 @@
     top: 50%;
     transform: translate(0, -50%);
     right: 32px;
-    font-size: 45px;
-    color: white;
+    font-size: 35px;
+    color: var(--color-secondary);
     z-Index: 1;
     cursor: pointer;
+}
+
+/* ================ DEKSTOP ============ */
+@media screen and (min-width: 1024px) {
+    .slider {
+        height: 600px;
+    }
 }
