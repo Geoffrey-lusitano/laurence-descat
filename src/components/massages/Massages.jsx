@@ -6,7 +6,9 @@ import massages__3 from "../../assets/massages__3.jpg";
 const Massages = () => {
   return (
     <section id="massages">
-      <h2>Massage Sensitif de Bien Etre ®</h2>
+      <h2>Massage Sensitif de Bien Etre ®
+      
+      </h2>
       <div className="content massages">
         <img src={massages__1} alt="" />
 
@@ -22,7 +24,9 @@ const Massages = () => {
       </div>
       <div className="content massages__sensitif">
         <div className="acc__content">
-          <h2>Massage Sensitif de Bien Etre ® Assis</h2>
+          <h2>Massage Sensitif de Bien Etre ® Assis
+          
+          </h2>
           <p>
             Le massage assis permet à des personnes de découvrir le massage et
             d’être proposé aux personnes plus sensibles et moins aptes à
@@ -32,7 +36,9 @@ const Massages = () => {
         </div>
 
         <div className="acc__content">
-          <h2>Massage Sensitif de Bien Etre ® du ventre</h2>
+          <h2>Massage Sensitif de Bien Etre ® du ventre
+          
+          </h2>
           <p>
             Le massage du ventre peut se recevoir uniquement sur cette zone ou
             intégré lors du massage corporel. Il s’agit d’aller visiter cette
@@ -44,7 +50,9 @@ const Massages = () => {
       </div>
       <div className="content massages__aromatouch">
         <div className="acc__content">
-          <h2>Massage du dos Aromatouch</h2>
+          <h2>Massage du dos Aromatouch
+          
+          </h2>
           <p>
             Le Massage Aromatouch du dos ou des mains aux huiles essentielles :
             Ce massage, au cours duquel une application d’huiles essentielles
@@ -57,7 +65,9 @@ const Massages = () => {
         </div>
 
         <div className="acc__content">
-          <h2>Massage des mains Aromatouch</h2>
+          <h2>Massage des mains Aromatouch
+          
+          </h2>
           <p>
             Les mains seules peuvent être massées et il s’adresse donc en une
             découverte possible du massage aux huiles essentielles pour les

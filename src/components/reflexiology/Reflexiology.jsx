@@ -2,14 +2,13 @@ import React from "react";
 import "./reflexiology.css";
 import general from "../../assets/reflexo__general.jpg";
 import acc from "../../assets/reflexo__acc.jpg";
-import memory from "../../assets/reflexo__memory.jpg";
 import perinatale from "../../assets/reflexo__perinatale.jpg";
 import shiatsu from "../../assets/reflexo__shiatsu.jpg";
 function Reflexiology() {
   return (
     <section id="reflexiology">
       <h2>La réflexologie c’est quoi ?</h2>
-      <h3>Comment ça fonctionne ?</h3>
+
       <div className="types">
         <h3>Réflexologie plantaire</h3>
         <h3>Médecine Traditionnelle Chinoise</h3>
@@ -20,7 +19,8 @@ function Reflexiology() {
       <div className="content reflexiology__general">
         <img src={general} alt="" />
 
-        <div className="content general__content">
+        <div className="general__content">
+          <h3>Comment ça fonctionne ?</h3>
           <p>
             En séance de réflexologie j’utilise la représentation de chaque
             organe ou partie du corps au niveau du pied, des mains, du visage,
@@ -45,10 +45,11 @@ function Reflexiology() {
           </p>
         </div>
       </div>
-      <h2>Accompagnements specifiques</h2>
+
       <div className="content reflexiology__acc">
+        <h2>Accompagnements specifiques</h2>
         <div className="reflexiology__acc__general content">
-          <img src={acc} alt="" />
+          <img src={acc} alt="séances adaptées à vos pathologies" className="img__format"/>
 
           <div className="acc__content">
             <p>
@@ -62,7 +63,7 @@ function Reflexiology() {
           </div>
         </div>
       </div>
-      <h2>Réflexologie Périnatale </h2>
+      <h2>Réflexologie Périnatale</h2>
       <div className="content reflexiology__perinatal">
         <img src={perinatale} alt="" />
 

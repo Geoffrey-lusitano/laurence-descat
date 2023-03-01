@@ -57,10 +57,19 @@ h2,
 h3,
 h4,
 h5 {
+    padding-top: 1rem;
     text-align: center;
     padding-bottom: 1rem;
-}
+    display: flex;
+    flex-direction: column;
 
+}
+h2 {
+    text-decoration: solid underline var(--color-secondary) 0.2rem;
+}
+p {
+    padding: 1rem;
+}
 
 .content {
     display:flex;
@@ -99,10 +108,17 @@ img {
     border-radius: 1rem 0 1rem 0;
     margin-bottom: 1rem;
 }
+.span__titles {
+    width: 100%;
+    border: solid 2px var(--color-secondary);
+    border-radius: 1rem;
+}
 
 /* ================ TABLETTE ============ */
 @media screen and (min-width: 820px) {
-
+    img {
+        width: 60%;
+    }
 }
 
 /* ================ DEKSTOP ============ */
@@ -112,9 +128,7 @@ img {
 
     }
     img {
-
-        width: 50%;
-
+        width: 30%;
     }
     /* .content {
         flex-direction: row;

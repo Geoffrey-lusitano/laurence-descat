@@ -1,10 +1,18 @@
-
+#reflexiology {
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+}
 .reflexiology__acc {
     margin: 0 !important;
     background: var(--color-primary);
 }
-.general__content h3 {
-
+.types {
+    font-style: italic;
+    margin: 30px 0;
+}
+.types h3 {
+    padding: 0.5rem;
 }
 
 /* ================ TABLETTE ============ */
@@ -23,17 +31,33 @@
     .reflexiology__general {
         display: flex !important;
         flex-direction: row !important;
-        gap: 2.5rem;
         margin-top: 1rem;
+    }
+    .reflexiology__general .general__content {
+        padding: 0 7rem;
     }
     .reflexiology__acc {
         border-radius: 2rem;
     }
+    .img__format {
+        width: 1400px !important;
+        height: 500px !important;
+        object-fit: cover !important;
+        overflow: hidden;
+
+    }
     .reflexiology__acc__general {
         display: flex !important;
-        flex-direction: row !important;
-        gap: 2.5rem;
         margin-top: 1rem;
+    }
+    .reflexiology__acc__general .acc__content {
+        max-width: 1000px;
+    }
+    .reflexiology__acc__general .acc__content p {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
     }
 
 
@@ -48,5 +72,8 @@
         flex-direction: row !important;
         gap: 2.5rem;
         margin-top: 1rem;
+    }
+    .reflexiology__shiatsu .acc__content {
+        max-width: 600px;
     }
 }

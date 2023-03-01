@@ -14,7 +14,7 @@ const about = () => {
           <img src={ME} alt="" />
           <div className="about__content content">
             <h2>Réflexologue - Masseuse
-            <span></span>
+            
             </h2>
             
             <div className="content__text">

@@ -9,7 +9,7 @@
 }
 
 .about__general {
-    margin: 1rem;
+    margin-top: 1rem;
 }
 .about__general img {
     width: 60%;
@@ -24,14 +24,7 @@
     display: flex;
     flex-direction: column;
 }
-.about__content span {
-    width: 100%;
-    border: solid 2px var(--color-secondary);
-    border-radius: 1rem;
-}
-.content__text {
-    padding: 1rem;
-}
+
 .content__text__bottom {
     display: flex;
     flex-direction: column;
@@ -67,13 +60,11 @@
         justify-content: space-between;
         align-items: center;
     }
-
     .about__general img {
-        width: 100%;
+        width: 40%;
+        margin: 1rem;
     }
     .content__text__bottom {
         flex-direction: row;
     }
-
-
 }

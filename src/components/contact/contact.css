@@ -37,10 +37,9 @@
 
 /* ================ DEKSTOP ============ */
 @media screen and (min-width: 1024px) {
-    .contact__general {
-        display: grid !important;
-        grid-template-columns: repeat(3, 1fr);
-        gap: 2.5rem;
+
+    .contact__content {
+        width: 30%;
     }
 
     
