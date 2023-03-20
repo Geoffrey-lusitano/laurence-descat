@@ -1,6 +1,11 @@
 #ht h3 {
     margin-bottom: 1rem;
 }
+.ht__presta {
+    display: grid !important;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2.5rem;
+}
 .presta {
     height:100%;
     width:100%;
@@ -12,10 +17,13 @@
     align-items: center;
     padding: 1rem;
 }
-
+.price {
+    margin-bottom: 1rem;
+}
 .price span {
     margin-left: 1rem;
     margin-right: 1rem;
+
 }
 .detail {
     overflow: hidden;
@@ -23,20 +31,14 @@
 }
 
 /* ================ TABLETTE ============ */
-@media screen and (min-width: 820px) {
+@media screen and (max-width: 768px) {
 
 }
 
-/* ================ DEKSTOP ============ */
-@media screen and (min-width: 1024px) {
-    .ht__reflexotherapie {
-        display: grid !important;
-        grid-template-columns: repeat(2, 1fr);
-        gap: 2.5rem;
-    }
-    .ht__reflexologie {
-        display: grid !important;
-        grid-template-columns: repeat(3, 1fr);
+/* ================ PHONE ============ */
+@media screen and (max-width: 480px) {
+    .ht__presta {
+        grid-template-columns: repeat(1, 1fr);
         gap: 2.5rem;
     }
 }
