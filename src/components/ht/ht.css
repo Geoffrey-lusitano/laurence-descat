@@ -2,8 +2,8 @@
     margin-bottom: 1rem;
 }
 .ht__presta {
-    display: grid !important;
-    grid-template-columns: repeat(3, 1fr);
+    display: flex;
+    flex-direction: row !important;
     gap: 2.5rem;
 }
 .presta {

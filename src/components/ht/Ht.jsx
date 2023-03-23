@@ -37,10 +37,10 @@ const reflexologie = [
   },
   {
     id: 3,
-    name: "Accompagnements spécifiques (Parkinson, Alzheimer, Cancers,Fibromyalgie, Endométriose)",
+    name: "Accompagnements spécifiques ",
     duration: "1h00",
     price: "55,00 €",
-    description: "Séance de réflexologie adaptée à la pathologie, exercée sur différents points du corps et trouvant son intérêt pour réduire certains effets liés à la maladie ou aux traitements afin de gagner une meilleure qualité de vie et plus de bien-être au quotidien.",
+    description: "(Parkinson, Alzheimer, Cancers,Fibromyalgie, Endométriose) Séance de réflexologie adaptée à la pathologie, exercée sur différents points du corps et trouvant son intérêt pour réduire certains effets liés à la maladie ou aux traitements afin de gagner une meilleure qualité de vie et plus de bien-être au quotidien.",
   },
   {
     id: 4,
@@ -96,24 +96,43 @@ const massages = [
   },
 ];
 
-
-
-
-
 function Guidance() {
 
-  const [estMasque, setEstMasque] = useState(true);
 
-  const toggleMasque = () => {
-    setEstMasque(!estMasque);
-  }
+  const [estMasqueReflexotherapie, setEstMasqueReflexotherapie] = useState(reflexotherapie.map(() => true));
+  const [estMasqueReflexo, setEstMasqueReflexo] = useState(reflexologie.map(() => true));
+  const [estMasqueMassage, setEstMasqueMassage] = useState(massages.map(() => true));
+  
+  const toggleMasqueReflexotherapie = (index) => {
+  setEstMasqueReflexotherapie((prev) => {
+  const newState = [...prev];
+  newState[index] = !newState[index];
+  return newState;
+  });
+  };
+
+  const toggleMasqueReflexo = (index) => {
+    setEstMasqueReflexo((prev) => {
+    const newState = [...prev];
+    newState[index] = !newState[index];
+    return newState;
+    });
+    };
+  
+  const toggleMasqueMassage = (index) => {
+  setEstMasqueMassage((prev) => {
+  const newState = [...prev];
+  newState[index] = !newState[index];
+  return newState;
+  });
+  };
 
   return (
     <section id="ht">
       <h2>TARIFS</h2>
       <h3>REFLEXOTHERAPIE</h3>
       <div className="ht__presta content">
-        {reflexotherapie.map(({ id, name, duration, price, description }) => {
+        {reflexotherapie.map(({ id, name, duration, price, description }, index) => {
           return (
             <div className="presta" key={id}>
               <h3>{name}</h3>
@@ -123,11 +142,10 @@ function Guidance() {
                 <ImPriceTag />
                 <span>{price}</span>
               </div>
-              <button className="btn" onClick={toggleMasque}>
-                {estMasque ? "Plus de details" : "Masquer les details"}
+              <button className="btn" onClick={() => toggleMasqueReflexotherapie(index)}>
+                {estMasqueReflexotherapie[index] ? "Plus de details" : "Masquer les details"}
               </button>
-              {!estMasque && <p className="detail">{description}</p>}
-              
+              {!estMasqueReflexotherapie[index] && <p className="detail">{description}</p>}
             </div>
           );
         })}
@@ -135,7 +153,7 @@ function Guidance() {
       </div>
       <h3>REFLEXOLOGIE</h3>
       <div className="ht__presta content">
-        {reflexologie.map(({ id, name, duration, price, description }) => {
+        {reflexologie.map(({ id, name, duration, price, description }, index) => {
           return (
             <div className="presta" key={id}>
               <h3>{name}</h3>
@@ -145,7 +163,10 @@ function Guidance() {
                 <ImPriceTag />
                 <span>{price}</span>
               </div>
-              <p className="detail">{description}</p>
+              <button className="btn" onClick={() => toggleMasqueReflexo(index)}>
+                {estMasqueReflexo[index] ? "Plus de details" : "Masquer les details"}
+              </button>
+              {!estMasqueReflexo[index] && <p className="detail">{description}</p>}
             </div>
           );
         })}
@@ -153,7 +174,7 @@ function Guidance() {
       </div>
       <h3>MASSAGES</h3>
       <div className="ht__presta content">
-        {massages.map(({ id, name, duration, price, description }) => {
+        {massages.map(({ id, name, duration, price, description }, index) => {
           return (
             <div className="presta" key={id}>
               <h3>{name}</h3>
@@ -163,7 +184,10 @@ function Guidance() {
                 <ImPriceTag />
                 <span>{price}</span>
               </div>
-              <p className="detail">{description}</p>
+              <button className="btn" onClick={() => toggleMasqueMassage(index)}>
+                {estMasqueMassage[index] ? "Plus de details" : "Masquer les details"}
+              </button>
+              {!estMasqueMassage[index] && <p className="detail">{description}</p>}
             </div>
           );
         })}
