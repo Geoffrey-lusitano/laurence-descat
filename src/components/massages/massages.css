@@ -13,9 +13,7 @@
 
 /* ================ DEKSTOP ============ */
 @media screen and (min-width: 1024px) {
-    #massages {
-        border-radius: 2rem;
-    }
+
     .massages {
         display: flex;
         flex-direction: row !important;

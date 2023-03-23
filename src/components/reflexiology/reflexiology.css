@@ -1,7 +1,55 @@
-#reflexiology {
-    display:flex;
-    align-items: center;
-    flex-direction: column;
+
+.types {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+/* Reflexology General */
+.reflexiology__general {
+    display: flex !important;
+    flex-direction: row ;
+    margin-top: 1rem;
+}
+.reflexiology__general img {
+    width: 40%;
+    max-height: 600px;
+}
+.reflexiology__general .general__content {
+    padding: 0 7rem;
+}
+
+
+/* Accompagnement */
+
+
+.reflexiology__a {
+display: flex;
+flex-direction: row;
+}
+.img__a {
+    object-fit: cover !important;
+    overflow: hidden;
+    margin-bottom: 0;
+    max-height: 600px;
+}
+
+
+/* reflexiology perinatal*/
+.reflexiology__b {
+    display: flex ;
+    flex-direction: row-reverse ;
+    gap: 2.5rem;
+    margin-top: 1rem;
+}
+.img__b {
+    margin-bottom: 0;
+}
+
+/* reflexiology shiatsu */
+
+
+.reflexiology__shiatsu .acc__content {
+    max-width: 600px;
 }
 .reflexiology__acc {
     margin: 0 !important;
@@ -16,64 +64,26 @@
 }
 
 /* ================ TABLETTE ============ */
-@media screen and (min-width: 820px) {
-
+@media screen and (max-width: 820px) {
+    #reflexiology {
+        display:flex;
+        align-items: center;
+        flex-direction: column !important;
+    }
+    #reflexiology img {
+        width: 100%;
+    }
+    .types {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .reflexiology__general .general__content {
+        padding: 0;
+    }
 }
 
 /* ================ DEKSTOP ============ */
-@media screen and (min-width: 1024px) {
-    .types {
-        display: flex;
-        flex-direction: row !important;
-        justify-content: space-around;
+@media screen and (max-width: 480px) {
 
-    }
-    .reflexiology__general {
-        display: flex !important;
-        flex-direction: row !important;
-        margin-top: 1rem;
-    }
-    .reflexiology__general .general__content {
-        padding: 0 7rem;
-    }
-    .reflexiology__acc {
-        border-radius: 2rem;
-    }
-    .img__format {
-        width: 1400px !important;
-        height: 500px !important;
-        object-fit: cover !important;
-        overflow: hidden;
-
-    }
-    .reflexiology__acc__general {
-        display: flex !important;
-        margin-top: 1rem;
-    }
-    .reflexiology__acc__general .acc__content {
-        max-width: 1000px;
-    }
-    .reflexiology__acc__general .acc__content p {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-    }
-
-
-    .reflexiology__perinatal {
-        display: flex !important;
-        flex-direction: row-reverse !important;
-        gap: 2.5rem;
-        margin-top: 1rem;
-    }
-    .reflexiology__shiatsu {
-        display: flex !important;
-        flex-direction: row !important;
-        gap: 2.5rem;
-        margin-top: 1rem;
-    }
-    .reflexiology__shiatsu .acc__content {
-        max-width: 600px;
-    }
 }

@@ -8,15 +8,13 @@ function Reflexiology() {
   return (
     <section id="reflexiology">
       <h2>La réflexologie c’est quoi ?</h2>
-
       <div className="types">
         <h3>Réflexologie plantaire</h3>
         <h3>Médecine Traditionnelle Chinoise</h3>
         <h3>Palmaire</h3>
         <h3>Visage Dien Cham et Oreilles</h3>
       </div>
-
-      <div className="content reflexiology__general">
+      <div className="reflexiology__general">
         <img src={general} alt="" />
 
         <div className="general__content">
@@ -45,29 +43,26 @@ function Reflexiology() {
           </p>
         </div>
       </div>
-
-      <div className="content reflexiology__acc">
-        <h2>Accompagnements specifiques</h2>
-        <div className="reflexiology__acc__general content">
-          <img src={acc} alt="séances adaptées à vos pathologies" className="img__format"/>
-
-          <div className="acc__content">
-            <p>
-              Des séances adaptées à vos pathologies (Alzheimer, Parkinson,
-              Cancers, Fibromyalgie, Endométriose) ou différentes zones du corps
-              seront massées, stimulées, afin de réduire certaines
-              problématiques, certains effets à la maladie ou aux traitements,
-              afin de gagner une meilleure qualité de vie et plus de bien-être
-              au quotidien.
-            </p>
-          </div>
-        </div>
-      </div>
-      <h2>Réflexologie Périnatale</h2>
-      <div className="content reflexiology__perinatal">
-        <img src={perinatale} alt="" />
-
+      <div className="reflexiology__a">
         <div className="acc__content">
+          <h2>Accompagnements specifiques</h2>
+          <p>
+            Des séances adaptées à vos pathologies (Alzheimer, Parkinson,
+            Cancers, Fibromyalgie, Endométriose) ou différentes zones du corps
+            seront massées, stimulées, afin de réduire certaines problématiques,
+            certains effets à la maladie ou aux traitements, afin de gagner une
+            meilleure qualité de vie et plus de bien-être au quotidien.
+          </p>
+        </div>
+        <img
+          src={acc}
+          alt="séances adaptées à vos pathologies"
+          className="img__a"
+        />
+      </div>
+      <div className="reflexiology__b">
+        <div className="acc__content">
+          <h2>Réflexologie Périnatale</h2>
           <p>
             La Réflexologie Périnatale permet d’accompagner dans les meilleures
             conditions les femmes dans leurs expériences de grossesse
@@ -86,17 +81,18 @@ function Reflexiology() {
             parents ne concerne pas toujours que les femmes.
           </p>
         </div>
+        <img src={perinatale} alt="" className="img__b" />
       </div>
-      <h2>Massage Shiatsu</h2>
-      <div className="content reflexiology__shiatsu">
-        <img src={shiatsu} alt="" />
+      <div className="reflexiology__a">
         <div className="acc__content">
+          <h2>Massage Shiatsu</h2>
           <p>
             Par des pressions effectuées manuellement sur le corps sur le trajet
             de méridiens afin de réguler les points bloqués ou ayant besoin
             d’être stimulés afin de libérer la circulation de l’énergie.
           </p>
         </div>
+        <img src={shiatsu} alt="" className="img__a" />
       </div>
     </section>
   );

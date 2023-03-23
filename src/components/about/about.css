@@ -7,13 +7,20 @@
     flex-direction: column;
     text-align: justify;
 }
-
 .about__general {
-    margin-top: 1rem;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
 }
 .about__general img {
-    width: 60%;
+    width: 40%;
+    margin: 1rem;
 }
+.content__text__bottom {
+    flex-direction: row;
+}
+
 
 
 /* ===================== ME ========================== */
@@ -23,6 +30,7 @@
 .about__content h2 {
     display: flex;
     flex-direction: column;
+    
 }
 
 .content__text__bottom {
@@ -48,21 +56,20 @@
 }
 
 /* ================ TABLETTE ============ */
-@media screen and (min-width: 820px) {
+@media screen and (max-width: 820px) {
 
 }
 
 /* ================ DEKSTOP ============ */
-@media screen and (min-width: 1024px) {
+@media screen and (max-width: 480px) {
     .about__general {
         display:flex;
-        flex-direction: row;
+        flex-direction: column;
         justify-content: space-between;
         align-items: center;
     }
     .about__general img {
         width: 40%;
-        margin: 1rem;
     }
     .content__text__bottom {
         flex-direction: row;

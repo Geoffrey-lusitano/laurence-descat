@@ -21,8 +21,9 @@ function Memory() {
           Le travail en réflexologie plantaire est effectué avant ou après cette séance pour accompagner cette libération de mémoires. Par ailleurs ce travail en réflexologie sera très utile lorsqu’il aura des fausses-couches, après la naissance, pour soutenir les problématiques des ces moments de vie (Post-partum,…)
           </p>
         </div>
-          <img src={memory__1} alt="" />
+          
       </div>
+      <img src={memory__1} alt="" />
     </section>
   );
 }
