@@ -81,7 +81,7 @@ function Reflexiology() {
             parents ne concerne pas toujours que les femmes.
           </p>
         </div>
-        <img src={perinatale} alt="" className="img__b" />
+        <img src={perinatale} alt="" className="img__a" />
       </div>
       <div className="reflexiology__a">
         <div className="acc__content">

@@ -20,7 +20,7 @@ const Nav = () => {
       </a>
       <a href="#reflexiology" onClick={() => setActiveNav('#reflexiology')} className={activeNav === '#reflexiology' ? 'active' : ''}>
         <GiFootprint/>
-        <span className='nameNav'>Réflexiologie</span>
+        <span className='nameNav'>Réflexologie</span>
       </a>
       <a href="#massages" onClick={() => setActiveNav('#massages')} className={activeNav === '#massages' ? 'active' : ''}>
         <TbMassage/>

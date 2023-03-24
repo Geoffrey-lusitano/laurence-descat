@@ -73,11 +73,6 @@ p {
     padding: 1rem;
 }
 
-.content p {
-    padding-bottom: 1rem;
-}
-
-
 .btn {
     width: max-content;
     display: inline-block;
@@ -100,13 +95,8 @@ img {
     width: 100%;
     object-fit: contain;
     margin: 0 auto;
-    margin-bottom: 1rem;
 }
-.span__titles {
-    width: 100%;
-    border: solid 2px var(--color-secondary);
-    border-radius: 1rem;
-}
+
 
 /* ================ TABLETTE ============ */
 @media screen and (max-width: 820px) {
