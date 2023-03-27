@@ -8,10 +8,33 @@ import {ImPriceTag} from 'react-icons/im'
 import {GiFootprint} from 'react-icons/gi'
 
 
-import {useState} from 'react'
+import {useState, useEffect} from 'react'
 
 const Nav = () => {
-  const [activeNav, setActiveNav] = useState('#')
+  const [activeNav, setActiveNav] = useState('#');
+  const getVisibleSection = () => {
+    const sections = document.querySelectorAll("section");
+    for (let i = 0; i < sections.length; i++) {
+      const section = sections[i];
+      const rect = section.getBoundingClientRect();
+      if (rect.top >= 0 && rect.top <= window.innerHeight) {
+        return section;
+      }
+    }
+    return null;
+  };
+  const handleScroll = () => {
+    const visibleSection = getVisibleSection();
+    if (visibleSection) {
+      setActiveNav(`#${visibleSection.id}`);
+    }
+  };
+  useEffect(() => {
+    window.addEventListener("scroll", handleScroll);
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
   return (
     <nav>
       <a href="#home" onClick={() => setActiveNav('#home')} className={activeNav === '#home' ? 'active' : ''}>
