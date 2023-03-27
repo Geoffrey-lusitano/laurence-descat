@@ -25,12 +25,19 @@
 }
 
 .contact__icon {
-    font-size:1.5rem;
+    font-size:2rem;
     margin-bottom: 0.5rem;
 }
-
+.contact__content h4 {
+    font-size: 18px;
+    padding-top: 0;
+}
+.contact__content h5 {
+    font-size: 14px;
+}
 .contact__content a {
     color: var(--color-secondary);
+    font-weight: bold;
 }
 
 
@@ -41,20 +48,13 @@
         flex-direction: column;
     }
     .contact__content {
-        width: 100%;
+        width: 90%;
     }
 }
 
 /* ================ DEKSTOP ============ */
 @media screen and (max-width: 480px) {
 
-.contact__general {
-    display: flex;
-    flex-direction: column;
-}
-.contact__content {
-    width: 90%;
-}
 
     
 }
