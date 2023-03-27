@@ -22,7 +22,7 @@ padding-top: 2rem;
 }
 .reflexiology__general img {
     width: 40%;
-    max-height: 600px;
+    max-height: 500px;
 }
 .reflexiology__general .general__content {
     padding: 0 7rem;
@@ -43,10 +43,10 @@ flex-direction: row;
     padding: 2rem 4rem;
 }
 .img__a {
-    object-fit: cover !important;
+    object-fit: cover ;
     overflow: hidden;
     margin-bottom: 0;
-    max-height: 600px;
+    max-height: 500px;
 }
 
 
@@ -73,6 +73,7 @@ flex-direction: row;
     }
     #reflexiology img {
         width: 100%;
+        object-fit: cover;
     }
     .types {
         display: flex;
