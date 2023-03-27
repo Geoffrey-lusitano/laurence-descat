@@ -33,11 +33,6 @@
 }
 /* ================ TABLETTE ============ */
 @media screen and (max-width: 820px) {
-
-}
-
-/* ================ DEKSTOP ============ */
-@media screen and (max-width: 480px) {
     .permalinks {
         display: flex;
         flex-direction: column;
@@ -45,4 +40,9 @@
     .permalinks li {
         padding: 1rem;
     }
+}
+
+/* ================ DEKSTOP ============ */
+@media screen and (max-width: 480px) {
+
 }
