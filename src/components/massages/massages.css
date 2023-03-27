@@ -29,6 +29,7 @@
 .aro__content {
     display: flex;
     flex-direction: row;
+    align-items: center;
     justify-content: space-evenly;
 }
 .content {
@@ -44,21 +45,18 @@
 
 /* ================ TABLETTE ============ */
 @media screen and (max-width: 820px) {
+    .massages__sensitif {
+        flex-direction: column;
+    }
+    .aro__content {
+        flex-direction: column;
+    }
 
 }
 
 /* ================ PHONE ============ */
 @media screen and (max-width: 480px) {
 
-    .massages__sensitif {
-
-        flex-direction: column;
-    }
-    .aro__content {
-
-        flex-direction: column;
-
-    }
 
     
 }
