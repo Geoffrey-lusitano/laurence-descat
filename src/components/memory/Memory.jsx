@@ -23,7 +23,7 @@ function Memory() {
         </div>
           
       </div>
-      <img src={memory__1} alt="" />
+      <img src={memory__1} alt="" className="img__memory"/>
     </section>
   );
 }

@@ -7,7 +7,7 @@ import { BsInstagram } from "react-icons/bs";
 const Footer = () => {
   return (
     <footer id="footer">
-      <div className="footer__general content">
+      <div className="footer__general">
         <ul className="permalinks">
           <li>
             <a href="#home">Accueil</a>

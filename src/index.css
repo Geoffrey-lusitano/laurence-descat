@@ -93,8 +93,6 @@ p {
 img {
     display: block;
     width: 100%;
-    object-fit: contain;
-    margin: 0 auto;
 }
 
 
@@ -110,8 +108,4 @@ img {
 
     }
 
-    /* .content {
-        flex-direction: row;
-        border: black 1px solid ;
-    } */
 }

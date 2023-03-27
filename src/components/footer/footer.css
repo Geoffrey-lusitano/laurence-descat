@@ -1,15 +1,20 @@
 #footer {
     margin-bottom: 150px;
+    display: flex;
+    justify-content: center;
 }
 #footer a {
     text-decoration: none;
     color: var(--color-text);
 }
 .permalinks {
+    display: flex;
+    flex-direction: row;
     text-align: center;
 }
 .footer__socials {
     display: flex;
+    justify-content: center;
     flex-direction: row;
     text-align: center;
 }
@@ -19,16 +24,23 @@
     margin: 2rem;
 }
 
+.permalinks li {
+    padding: 1rem;
+}
+.footer__copyright {
+    display: flex;
+    justify-content: center;
+}
 /* ================ TABLETTE ============ */
-@media screen and (min-width: 820px) {
+@media screen and (max-width: 820px) {
 
 }
 
 /* ================ DEKSTOP ============ */
-@media screen and (min-width: 1024px) {
+@media screen and (max-width: 480px) {
     .permalinks {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
     }
     .permalinks li {
         padding: 1rem;

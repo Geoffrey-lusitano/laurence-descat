@@ -8,7 +8,7 @@ const Contact = () => {
   return (
     <section id="contact">
       <h2> Contactez-moi</h2>
-      <div className="content contact__general">
+      <div className="contact__general">
         
         <div className="contact__content">
           <MdOutlineEmail className="contact__icon" />

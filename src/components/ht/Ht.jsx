@@ -131,7 +131,7 @@ function Guidance() {
     <section id="ht">
       <h2>TARIFS</h2>
       <h2>REFLEXOTHERAPIE</h2>
-      <div className="ht__presta content">
+      <div className="ht__presta">
         {reflexotherapie.map(({ id, name, duration, price, description }, index) => {
           return (
             <div className="presta" key={id}>
@@ -152,7 +152,7 @@ function Guidance() {
         
       </div>
       <h2>REFLEXOLOGIE</h2>
-      <div className="ht__presta content">
+      <div className="ht__presta">
         {reflexologie.map(({ id, name, duration, price, description }, index) => {
           return (
             <div className="presta" key={id}>
@@ -173,7 +173,7 @@ function Guidance() {
         
       </div>
       <h2>MASSAGES</h2>
-      <div className="ht__presta content">
+      <div className="ht__presta">
         {massages.map(({ id, name, duration, price, description }, index) => {
           return (
             <div className="presta" key={id}>

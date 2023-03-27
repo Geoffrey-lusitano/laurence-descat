@@ -79,9 +79,27 @@ flex-direction: row;
         flex-direction: column;
         justify-content: space-around;
     }
+    /* Reflexology General */
     .reflexiology__general .general__content {
         padding: 0;
     }
+    .reflexiology__general {
+        flex-direction: column ;
+    }
+    /* Accompagnement */
+
+.reflexiology__a {
+    flex-direction: column;
+    }
+    .acc__content p {
+        padding: 1rem 1rem;
+    }
+    /* reflexiology perinatal*/
+.reflexiology__b {
+
+    flex-direction: column ;
+
+}
 }
 
 /* ================ PHONE ============ */
